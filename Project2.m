@@ -1,4 +1,4 @@
-path = '~/Documents/MSc Robotics/P104/Patsiouras_116_Assignment2/gray.jpg';
+path = 'your-image';
 img=imread(path);
 disp('%%%%%%%%%%%%%%%%%%%%%------------%%%%%%%%%%%%%%%%%%%%');
 i3 = img((size(img,1)/2)+1:size(img,1) , 1:size(img,2)/2,:);
